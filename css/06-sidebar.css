@@ -12,13 +12,14 @@ position: relative;
 .profile-info > h2 {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 22px;
-    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 .profile-info > p {
     margin-bottom: 18px;
 }
+
 
 .profile-nav > li {
     display: block;
@@ -31,5 +32,9 @@ position: relative;
 .profile-nav > li:first-child {
     border-top: 1px solid rgb(222, 221, 221);
     margin: 5px;
+}
+
+.profile-nav > li:hover {
+    background-color: rgb(237, 236, 236);
 }
 
