@@ -19,3 +19,30 @@
     margin-top: 20px;
     margin: 5px;
 }
+
+.thumb:before {
+    content:"";
+    display: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.thumb:after {
+    content:attr(title);
+    display:none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: white;
+
+}
+
+.thumb:hover:before,
+.thumb:hover:after {
+
+    display: block;
+
+}
